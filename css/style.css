@@ -1,0 +1,412 @@
+.ui-field-contain .ui-controlgroup-label{
+    clear: both;
+    display: inline-block;
+    margin: 0 2% 0 0;
+    vertical-align: top;
+    width: 100%;
+}
+
+.ui-field-contain .ui-controlgroup-controls{
+    width: 100%;
+}
+
+.ui-field-contain .ui-controlgroup-controls .ui-radio{
+    width: 50%;
+}
+
+.ui-field-contain input.ui-input-text{
+    width: 100%;
+}
+
+.ui-content h4{
+    display:block;
+}
+
+#adult, #adult_1, #adult_2, #adultSel{
+    display: block;    
+    clear: both;
+    width: 100%;
+}
+
+#adult .ui-btn, #adult_1 .ui-btn, #adult_2 .ui-btn, #adultSel .ui-btn{
+    float: left;
+}
+
+#adult h4, #adult_1 h4, #adult_2 h4, #adultSel h4{
+    float: left;
+}
+
+#children, #children_1, #children_2, #childrenSel{
+    display: block;
+    clear: both;
+    width: 100%;
+}
+
+#children .ui-btn, #children_1 .ui-btn, #children_2 .ui-btn, #childrenSel .ui-btn{
+    float: left;
+}
+
+#children h4, #children_1 h4, #children_2 h4, #childrenSel h4{
+    float: left;
+}
+
+#wheelchair{
+    display: block;
+    clear: both;
+    width: 100%;
+}
+
+#wheelchair h3{
+    float: left;
+    margin-top: 25px;
+}
+
+#searchWidget #wheelchair .ui-field-contain{
+    float: left;
+    clear: none;
+    margin-top: 0px;
+    width: auto;
+}
+
+#selectAir .ui-header .airport{
+    width: 100%; 
+    padding: 0; 
+    border-radius: 0; 
+    border-style: none; 
+    margin-left: -5px; 
+    display: block;
+    position: relative;
+    top: 0;
+}
+
+#selectAir .ui-header .airport span{
+    border-radius: 0px;
+}
+
+#selectAir .ui-content{
+    display: block;
+    position: relative;
+    padding: 10px 15px;
+}
+
+#selectAir .ui-content .ui-field-contain{
+    margin-top: 0px;
+}
+
+#selectAir .ui-content .ui-field-contain{
+    width: 70%;
+    float: left;
+}
+
+#selectAir .ui-content .ui-btn{
+    width: 28%;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1.2em;
+}
+
+#selectAir .ui-content .ui-btn .ui-btn-inner{
+    padding: 0.6em 20px;
+    font-size: .7em;
+}
+
+#adult #adult_label, #adult_1 #adult_label, #adult_2 #adult_label, #adultSel #adult_label{
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 0.5em;
+    margin-top: 1.3em;
+    width: 3em;
+    display: block;
+}
+
+#children #children_label, #children_1 #children_label, #children_2 #children_label, #childrenSel #children_label{
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 0.5em;
+    margin-top: .7em;
+    width: 12em; 
+}
+
+h5{
+    clear: both;
+}
+
+#menu_btn{
+    float: right;
+    position: relative;
+    margin: 2px 15px 0 0;
+}
+
+#autocomplete li{
+    cursor: pointer;
+}
+
+#control {
+    width: 100%;
+}
+
+#searchWidget input{
+    width: 100%;
+}
+
+#locationType_text input{
+    width: 100%;
+}
+
+#locationType_text  #location_area #landmark_input{
+    display: none;
+}
+
+#orderSummary #total_fare, #orderSummary #baggage, #orderSummary #gratuity, #customerInfo #total_fare, #customerInfo #passengerDetail, 
+#customerInfo #flightInfo, #customerInfo  #creditCard, #customerInfo  #directBill, #customerInfo #departFlightInfo, #customerInfo #arrivalFlightInfo{
+    border: 3px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;   
+}
+
+#total_fare h3, #total_fare p, #total_fare h5, #total_fare span{
+    margin: 0 0 0 10px;
+    padding: 0;
+}                 
+
+#leavingTo{
+    margin-bottom: 10px;
+}
+
+#baggage_title, #gratuity_title, #passDetail_title, #flightInfo_title, #pickup_title, #departFlight_title, #arrivalFlight_title{
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+}
+
+#baggage{
+    clear: both;
+    display: block;
+    position: relative;    
+}
+
+#baggage h5{
+    width: 50%;
+    display: inline-block;
+    position:relative;
+    clear: both;
+    margin:0;
+    top: -1.5em;
+}
+
+#baggage #adultSel, #baggage #childrenSel{
+    width: 6%;
+    position: relative;
+    display: inline-block;
+}
+
+#gratuity h5{
+    width: 45%;
+    float: left;
+    margin-top: 0.6em;
+    margin-right: 1em;
+}
+
+#money #mark1{
+    float: left;
+    margin-top: 0.5em;
+}
+#money #input_money{
+    width: 25%;
+    float: left;
+    margin-top: 0;
+}
+#gratuity .ui-btn{
+    clear: both;
+}
+
+#returningFrom{
+    display: none;
+}
+
+#searchBtn, #continueBtn{
+    background: orange;
+    border-color: orange;
+}
+
+#total_fare #changeBtn span{
+    margin: 0 auto;
+    padding: 0;
+}
+
+#returnCustomer{
+    margin-left: 1em;
+}
+#returnCustomer h5{
+    margin-bottom: 0.1em;
+}
+
+#passengerDetail label{
+    margin-left: 1em;
+}
+
+#flightInfo .ui-select, #departFlightInfo .ui-select, #arrivalFlightInfo .ui-select{
+    width: 100%;
+}
+
+#flightInfo .ui-input-datebox, #departFlightInfo .ui-input-datebox, #arrivalFlightInfo .ui-input-datebox{
+    width: 45%;
+/*    margin: 0 0.2em;*/
+    display: inline-block;
+    position:relative;
+    clear:both;
+}
+
+#searchWidget .ui-controlgroup-controls{
+    width: 100%;
+}
+
+#searchWidget .ui-field-contain{
+    width: 100%;
+}
+
+#searchWidget .ui-controlgroup-vertical .ui-btn{
+    border-bottom-width: 1px;
+}
+
+#searchWidget .ui-controlgroup-horizontal .ui-btn{
+    border-right-width: 1px;
+}
+
+#searchWidget .ui-controlgroup .ui-btn-corner-all{
+    border-radius: 1em 1em 1em 1em;
+}
+#searchWidget .ui-shadow{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#customerInfo  #directBill{
+    display: none;
+}
+
+#customerInfo #creditCard #password, #customerInfo #creditCard #repassword{
+    display: none;
+}
+
+#customerInfo #departFlight_title, #customerInfo #departFlightInfo, 
+#customerInfo #arrivalFlight_title, #customerInfo #arrivalFlightInfo{
+    display: none;
+} 
+
+
+#footer #copyright{
+    float: right;
+    font-size: 12px;
+    margin-right: 1%;
+    margin-top: 0.6%;
+}
+
+#footer .ui-controlgroup{
+    display: block;
+    position: relative;
+}
+
+#footer.ui-bar-a a.ui-link{
+    color: #575bc7;
+}
+
+#confirmPage #confirm_header{
+    border-bottom: 1px solid gray;    
+}
+
+#confirmPage .ui-content{
+    padding: 0;
+}
+
+#confirmPage #confirm_header h5{
+    border-bottom: 2px solid black; 
+    font-size: 18px; 
+    text-align: center; 
+    margin: 10px 0;
+}
+
+#confirmPage #important{
+    padding: 0 10px;
+}
+
+#confirmPage #important #shuttle_txt{
+    color: #e88856;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#confirmPage #important #shuttle_txt a{
+    color: #3da072;
+}
+#confirmPage #share_links #links a{
+    width: 29%;
+    float: left;
+    margin-left: 3%;
+}
+#facebook .ui-icon-facebook{
+    background-image: url(../images/facebook.png);
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 21px;
+}
+#twitter .ui-icon-twitter{
+    background-image: url(../images/twitter.png);
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 21px;
+}
+#email .ui-icon-email{
+    background-image: url(../images/email.png);
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 21px;
+}
+
+#confirmPage #share_links{
+    border-bottom: 1px solid gray;
+    display: block;
+}
+
+#confirmPage #share_links h5{
+    margin: 1% 3%;
+    display: inline-block;
+}
+
+#confirmPage #share_links #links{
+    clear: both;
+    display: inline-block;
+    width: 100%;
+}
+
+#confirmPage #confirm_detail{
+    padding: 2%;
+}
+
+#confirmPage #confirm_detail #itinerary{
+    color: #E88856;
+}
+
+#confirmPage #confirm_detail h4{
+    margin: 1.5% 0 0.5%;
+}
+#confirmPage #confirm_detail p{
+    margin: 0.5% 0 0.5%; 
+    font-weight: normal;   
+}
+
+#errorPage p{
+    color: red;
+}
+
+#customerInfo #departFlightInfo #pickupTime #pickup_title{
+    float: left;
+    margin-top: 1%;
+    margin-left: 0;
+}
+
+#customerInfo #departFlightInfo #pickupTime .ui-select{
+    width: 95%;
+    margin-left: 1%;
+}
